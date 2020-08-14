@@ -1,0 +1,32 @@
+/* navigation */
+ul {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	position: relative;
+	right: 0;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+nav ul li {
+	float: left;
+	list-style: none;
+}
+nav ul li a {
+	display: block;
+	padding: 5px 15px;
+	font-size: 18px;
+	line-height: 16px;
+	text-decoration: none;
+	margin-right: 120px;
+	color: white;
+	font-family: Poppins, sans-serif;
+}
+nav ul li:last-child a {
+	margin-right: 0;
+}
+nav ul li.active a {
+	color: white;
+	font-weight: bold;
+}

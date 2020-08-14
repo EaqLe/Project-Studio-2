@@ -1,0 +1,12 @@
+/* import all stylesheets */
+@import 'layout.css';
+@import 'navigation.css';
+@import 'main.css';
+@import 'header.css';
+@import 'contact.css';
+@import 'typography.css';
+@import 'nieuws.css';
+@import 'instagram-section.css';
+@import 'evenementen.css';
+
+/*hier worden alle stylesheets samengevoegd*/

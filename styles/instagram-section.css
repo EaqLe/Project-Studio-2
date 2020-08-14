@@ -1,0 +1,27 @@
+.instagram-section,
+main {
+	width: 100%;
+	overflow: hidden; /* clearfix */
+}
+
+.instagram-logo img {
+	width: 100%
+}
+
+.instagram-logo {
+	width: 30px;
+	margin-top: 10px;
+	float: left;
+}
+
+#instagrambtn {
+	margin-top: 12px;
+	margin-left: 10px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+	border: 2px solid white ;
+	cursor: pointer;
+	font-weight: bold;
+}

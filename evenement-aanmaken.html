@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<title>Brouwerij Kwartje</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<script src="scripts/main.js" defer></script>
+		<link rel="shortcut icon" type="image/png" href="images/kwartje-logo-vector.svg"/>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<figure class="logo"><img src="images/kwartje-logo-vector.svg" alt="Logo van brouwerij Kwartje">
+				</figure>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="bieren.html">Bieren</a></li>
+						<li class="active"><a href="evenementen.html">Evenementen</a></li>
+						<li><a href="over-ons.html">Over ons</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<section class="evenement-gedeelte">
+					<h1>Plan een evenement bij Brouwerij Kwartje</h1>
+					<h2>De geselecteerde tijd is nog beschikbaar!</h2>
+				<article class="evenementen">
+					<form action="">
+					  <label for="naam">Naam</label><br>
+					 	 <input type="text" id="naam" name="naam"><br><br>
+					  <label for="dob">Geboortedatum</label><br>
+					  	<input type="dob" id="dob" name="dob"><br><br>
+					  <label for="telnr">Telefoonnummer</label><br>
+					  	<input type="telnr" id="telnr" name="telnr"><br><br>
+					  <label for="email">E-mail</label><br>
+					  	<input type="email" id="email" name="email"><br><br>
+					  <label for="personen">Aantal personen</label><br>
+						<input type="number" id="personen" name="aantalpersonen" min="1" max="20"><br>
+
+						<input type="checkbox" id="algemenevoorwaarden" name="algemenevoorwaarden" value="algemenevoorwaarden">
+						  <label for="algemenevoorwaarden">Ja, ik ga akkoord met de algemene voorwaarden</label><br>
+
+						  <input type="checkbox" id="opdehoogte" name="opdehoogte" value="opdehoogte">
+						  <label for="opdehoogte">Houd mij op de hoogte van nieuwe acties en evenementen</label><br>
+						 <div class="back">
+							<a href="evenementen.html" id="btn1">Terug</a>
+						</div>
+					  	<button type="button" id="btn" onclick="alert('Uw resevering is geplaatst!')">Reserveer</button>
+					</form>
+				</article>
+				<article class="evenement-tekst">
+					<figure class="barvrouw"><img src="images/barvrouw.jpg" alt="Datum picker om een dag te selecteren">
+							</figure>
+				</article>
+				</section>
+				
+			</main>
+		</div>
+
+		<footer>
+			<div class="specialeWensen">
+				<p>Wij gaan de uitdaging aan!<br>
+				<br>
+				Voor vragen of speciale wensen zijn<br>
+				wij te bereiken op brouwerijkwartje@gmail.com
+				</p>
+			</div>
+			<div class="adres">
+				<p>Kom eens een keer kijken!<br>
+					<br>
+					Zamenhofstraat 90<br>
+					2518LB Den Haag
+				</p>
+			</div>
+			<div class="socialMedia">
+				<figure class="socials"><img src="images/socials.png" alt="socialmedia van Brouwerij Kwartje">
+				</figure>
+			</div>
+
+		</footer>
+
+		
+
+	</body>
+</html>
